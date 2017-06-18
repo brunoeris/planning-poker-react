@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+  src: url(./assets/fonts/Roboto-Regular.ttf) format("truetype"); }
+
+.App-playground {
+  height: 100%; }
+
+.Planning-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%; }
+  .Planning-section .screen {
+    display: flex;
+    justify-content: center; }
+    .Planning-section .screen span {
+      padding: 0px;
+      margin: 0px;
+      font-size: 300px;
+      color: white; }
+  .Planning-section .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px; }
+    .Planning-section .buttons button {
+      width: 60px;
+      height: 60px;
+      margin: 2px;
+      background-color: #114D94;
+      border: none;
+      outline: none;
+      border-radius: 50%;
+      color: white;
+      font-size: 20px;
+      cursor: pointer; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: "Roboto";
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #4A90E2; }
