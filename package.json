@@ -1,5 +1,7 @@
 {
-  "name": "playground-app",
+  "name": "PlanningPokerReact",
+  "author": "Bruno Eris",
+  "email": "brunoeriss@gmail.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
